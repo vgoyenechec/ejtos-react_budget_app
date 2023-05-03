@@ -1,0 +1,22 @@
+.mySelect {
+    background-color: #a5e1a0 !important;
+    font-size: 20px !important;
+    width: 80%;
+    border-radius: 4px;
+    height: 45px;
+    color: #fdfffd;
+    padding: 0 0 1px 8px;
+}
+
+select:active,
+select:hover,
+select {
+    outline: none
+}
+
+option {
+    color: black;
+}
+option::hover{
+    background-color: #f9fafc;
+}
