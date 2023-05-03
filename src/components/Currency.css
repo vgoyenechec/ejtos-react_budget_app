@@ -1,11 +1,19 @@
-.mySelect {
+.mySelect
+ {
     background-color: #a5e1a0 !important;
-    font-size: 20px !important;
-    width: 80%;
+    font-size: 18px !important;
+    width: 75%;
     border-radius: 4px;
     height: 45px;
     color: #fdfffd;
+    padding: 0 0 1px 88px;
+    border-color: #94ca8f;
+    display: block;
+}
+
+.mySelect:active{
     padding: 0 0 1px 8px;
+
 }
 
 select:active,
@@ -17,6 +25,31 @@ select {
 option {
     color: black;
 }
-option::hover{
+
+option::hover {
     background-color: #f9fafc;
+}
+
+.label {
+    position: absolute;
+    font-size: 18px !important;
+    z-index: 1;
+    color: #fdfffd;
+    height: 40px;
+    line-height: 42px;
+    text-indent: 10px;
+    margin-right: 6px;
+}
+
+#lab {
+    position: relative;
+    top:-45px;
+    right:-150px;
+    font-size: 20px !important;
+    z-index: 1;
+    color:#fdfffd;
+    height: 40px;
+    line-height: 42px;
+    text-indent: 10px;
+    margin-right: 6px;
 }
